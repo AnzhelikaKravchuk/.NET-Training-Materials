@@ -16,7 +16,7 @@
 
 - *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)) и github-acc (для студентов рассмотреть возможность использования приватных репозиториев https://education.github.com/students).*
 - *Установить IDE Visual Studio Community 2017 (**англоязычную версию**).*
-- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/Training.-Spring-2018/blob/master/Day%201/Settings.StyleCop)*.
+- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201)*.
 - *Установить [LINQPad](http://www.linqpad.net/)*.
 
 ### Требования к выполнению заданий.
