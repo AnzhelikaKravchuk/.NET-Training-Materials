@@ -1,11 +1,12 @@
 ## Читать
-- Джеффри Рихтер. CLR via C#. Часть I. Основы CLR.
 - [Что такое CLR – Часть 1](http://kavayii.blogspot.com.by/2010/08/clr.html)
 - [Что такое CLR – Часть 2](http://kavayii.blogspot.com.by/2010/08/clr-2.html)
+  *Дополнительно:*
+- Джеффри Рихтер. CLR via C#. Часть I. Основы CLR.
 - [Introducing C# and the .NET Framework](https://github.com/AnzhelikaKravchuk/.NET-Training/wiki/Introducing-C%23-and-the-.NET-Framework)
 
 ## 
-- Ознакомиться с [проектом DemoSolution](https://drive.google.com/drive/u/0/folders/0B7WmjuqYed3AWXFzc1Mtcnk3d1k)
+- Ознакомиться с [проектом DemoSolution](https://github.com/AnzhelikaKravchuk/DemoSolution)
 - Ознакомиться с [Coding Standards for .NET](https://github.com/EPM-RD-NETLAB/Coding-guidlines)
 
 ## Презентация 
