@@ -14,7 +14,7 @@
 ## Дополнительная информация
 **[EPAM RD Training "DEVELOPING ASP.NET MVC WEB APPLICATIONS" Repository (C# and .NET Framework Basics part) by .NET Lab.](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules)**
 
-- *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)) и github-acc (для студентов рассмотреть возможность использования приватных репозиториев https://education.github.com/students).*
+- *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)).*
 - *Установить IDE Visual Studio Community 2017 (**англоязычную версию**).*
 - *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201)*.
 - *Установить [LINQPad](http://www.linqpad.net/)*.
@@ -29,6 +29,3 @@
 	- либо репозиторий один с папками (название см. выше для решения) 
 	- каждый репозиторий (папка) должен содержать файл readme.md, с формулировкой решаемых задач.
 - Обязательным требованием для любого выполненного задания является его соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/tree/master/Day%201)
-
-
-- [Git для начинающих](https://monsterlessons.com/project/lessons/git-nachinaem-rabotat-s-gitom)
