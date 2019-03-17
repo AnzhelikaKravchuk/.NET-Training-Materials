@@ -3,6 +3,7 @@
 - [Что такое CLR – Часть 2](http://kavayii.blogspot.com.by/2010/08/clr-2.html)
   
   *Дополнительно:* 
+- Essential C# 7.0 - Sixth Edition. Chapter 22: The Common Language Infrastructure.
 - Джеффри Рихтер. CLR via C#. Часть I. Основы CLR.
 - [Introducing C# and the .NET Framework](https://github.com/AnzhelikaKravchuk/.NET-Training/wiki/Introducing-C%23-and-the-.NET-Framework)
 
