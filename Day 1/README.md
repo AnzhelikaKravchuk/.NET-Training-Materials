@@ -12,8 +12,9 @@
 - Ознакомиться с [Coding Standards for .NET](https://github.com/AnzhelikaKravchuk/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md), [Coding Standards for .NET](https://github.com/EPM-RD-NETLAB/Coding-guidlines).
 
 ## Презентация 
-[draft version](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/blob/master/M1.%20Introduction%20to%20the%20C%23%20Language%20and%20the%20.NET%20Framework/Introduction%20to%20the%20C%23%20Language%20and%20the%20.NET%20Framework%20(draft).pdf)
+[draft version](https://drive.google.com/drive/folders/0B7WmjuqYed3AWXFzc1Mtcnk3d1k)
 
-## Задачи
-1. Cоздать многофайловую сборку. Назначить сборке строе имя. Поместить сборку в GAC. Проанализировать полученную сборку с помощью ILDASM, JetBrains dotPeek, dnSpy. [Примеры в помощь](https://drive.google.com/drive/folders/0B7WmjuqYed3AWXFzc1Mtcnk3d1k)
-2. Реализовать методы быстрой сортировки и сортировки слиянием для целочисленного массива (методы поместить в статический класс ArrayExtension, тип проекта Class Library). Протестировать работу методов с использованием тестовых фреймворков NUnit и MS Tests (для каждого фреймворка создать отдельный проект). Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.
+## Задачи (deadline - 20.03.2019, 18.00)
+- Реализовать методы быстрой сортировки и сортировки слиянием для целочисленного массива (методы поместить в статический класс ArrayExtension, тип проекта Class Library). 
+- Полученной сборке назначить строе имя. Поместить сборку в GAC. Проанализировать полученную сборку с помощью ILDASM (JetBrains dotPeek, dnSpy).
+- Протестировать работу методов с использованием тестовых фреймворков NUnit и MS Tests (для каждого фреймворка создать отдельный проект). Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.
