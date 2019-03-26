@@ -8,7 +8,7 @@
 - [Basic Coding in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M4.%20Methods%20in%20details)
 - [Creating types in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M3.%20Creating%20types%20in%20C%23)
 
-## Задачи 
+## Задачи (Day 4 - Day 5)
  
 1. (deadline 29.03.2019, 24.00) Реализовать класс Transformer, метод TransformToWords которого выполняет преобразование любого вещественного числа в его "словестный формат". Например, -23.809 -> "minus two three point eight zero nine". Разработать модульные тесты для тестирования метода.
 2. (deadline 29.03.2019, 24.00) Расширить функциональную возможность типа System.Double, реализовав метод Transform, который принимает массив вещественных чисел и трансформирует его в массив строк таким образом, чтобы каждое вещественное число преобразовывалось в его "словестный формат" (LINQ-запросы не использовать!). Например, {-23.809, 0.295, 15.17} -> {"minus two three point eight zero nine", "zero point two nine five", "one five point one seven"}. Разработать модульные тесты для тестирования метода.
