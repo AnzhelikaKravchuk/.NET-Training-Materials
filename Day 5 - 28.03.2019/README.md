@@ -11,3 +11,5 @@
 - перегрузка операций
 
 ## [Задачи](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%204%20-%2026.03.2019)
+
+[Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
