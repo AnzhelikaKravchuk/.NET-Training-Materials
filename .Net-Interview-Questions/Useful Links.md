@@ -5,3 +5,4 @@
 - [Что нужно знать про арифметику с плавающей запятой](https://habr.com/ru/post/112953/)
 - [Вычисление НОД — ошибка, которой не замечают](https://habr.com/ru/post/205106/)
 - [Под капотом у Stopwatch](https://m.habr.com/ru/post/226279/)
+- [Хитрости с битовыми операциями](https://tproger.ru/articles/awesome-bits/)
