@@ -1,4 +1,6 @@
+# Tasks
 
+- Отрефакторить решение с нахождением наибольшего общего делителя.
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
