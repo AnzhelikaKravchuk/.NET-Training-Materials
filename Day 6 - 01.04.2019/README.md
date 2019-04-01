@@ -1,6 +1,7 @@
 # Tasks
 
-- Отрефакторить решение с нахождением наибольшего общего делителя.
+- Отрефакторить решение с нахождением наибольшего общего делителя [Task 3](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%203%20-%2025.03.2019).
+- Продемонстрировать работу с разработанными методами в ASP.NET MVC приложении.
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
