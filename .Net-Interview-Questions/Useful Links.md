@@ -8,3 +8,4 @@
 - [Хитрости с битовыми операциями](https://tproger.ru/articles/awesome-bits/)
 - [Топ-25 вопросов для телефонного собеседования](https://tproger.ru/translations/top-25-phone-interview-questions/)
 - [Создание архитектуры программы или как проектировать табуретку](https://habr.com/ru/post/276593/)
+- [Сравнение объектов в C#.NET](https://habr.com/ru/post/137680/)
