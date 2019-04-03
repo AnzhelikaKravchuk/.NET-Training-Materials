@@ -1,6 +1,7 @@
 ## [Обязательно просмотреть видео по теме Exception Handling!](https://drive.google.com/drive/folders/1EcE_cda3LYom75KH1kIaEO0ZWHt9VNXU)
 
 1. (*"Перезапуск" НОД-а*) Есть унификация алгоритма Евклида для двух целочисленных значений в виде интерфейса 
+
 		>  public interface IGcdAlgorithm
    		>  {
         	>     int Calculate(int first, int second);
