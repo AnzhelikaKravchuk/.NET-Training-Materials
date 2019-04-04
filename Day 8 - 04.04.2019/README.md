@@ -29,10 +29,10 @@ c реализацией в виде классов EuclideanGcdAlgorithm и Bin
 Для выполнения основных операций со набором книг, который можно загрузить (Load) и, если возникнет необходимость, сохранить (Save) в некоторое хранилище BookListStorage разработать класс BookListService (как сервис для работы с коллекцией книг) с функциональностью AddBook (добавить книгу, если такой книги нет, в противном случае выбросить исключение); RemoveBook (удалить книгу, если она есть, в противном случае выбросить исключение); FindBookByTag (найти книгу по заданному критерию); SortBooksByTag (отсортировать список книг по заданному критерию), при реализации делегаты не использовать! 
 		
 		public interface IBookListStorage
-                {
-                    IEnumerable<Entities.Book> LoadBooks();
-                    void SaveBooks(IEnumerable<Entities.Book> books);
-                }
+		{
+		    IEnumerable<Entities.Book> LoadBooks();
+		    void SaveBooks(IEnumerable<Entities.Book> books);
+		}
 		
 - В качестве хранилища пока использовать FakeBookListStorage как обертку для списка книг, который хранится в памяти ("in memory dataset"). Данное хранилище пока используется для целей тестирования. В дальнейшем хранилище будет изменяться.
 - **(deadline - 08.04.2019 24.00)** Продемонстрировать возможности работы с системой типов в ASP.NET MVC приложении.
