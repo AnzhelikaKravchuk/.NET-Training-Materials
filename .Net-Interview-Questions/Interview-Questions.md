@@ -99,7 +99,19 @@
 > если x=false, y не вычисляется, возвращается false  
 > [Подробнее...](https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/conditional-and-operator)
 
--	Каков результат операции 1 xor 1? [Ответ](https://tproger.ru/translations/bitwise-operations/)
+-	Каков результат операции 1 xor 1?
+> Операция XOR (исключающее ИЛИ)  
+> Таблица истинности для операции XOR  
+> x|y|x XOR y
+> -|-|-
+> 0|0|0
+> 0|1|1
+> 1|0|1
+> 1|1|0
+> 
+> В C# операцию логического ИЛИ выполняет оператор ^ [Подробнее...](https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/xor-operator).  
+> [О битовых операциях](https://tproger.ru/translations/bitwise-operations/)
+
 -	Сколько времени займет получение элемента из одномерного массива, связного списка, бинарного дерева поиска, хэш-таблицы? А если в этих структурах будет миллион элементов?
 -	Что такое потокобезопасный код?
 -	Какие вы знаете о объектах синхронизации?
