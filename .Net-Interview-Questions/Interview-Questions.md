@@ -96,7 +96,7 @@
 > Логический оператор && (также известный как "сокращенный" логический оператор И) вычисляет логическое И всех операндов.  
 > x && y  
 > если x=true, проверяется y, возвращается результат операции  
-> если x=false, y не вычисляется, возвращается false
+> если x=false, y не вычисляется, возвращается false  
 > [Подробнее...](https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/conditional-and-operator)
 
 -	Каков результат операции 1 xor 1? [Ответ](https://tproger.ru/translations/bitwise-operations/)
