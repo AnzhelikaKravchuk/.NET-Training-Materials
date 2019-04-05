@@ -30,8 +30,8 @@ c реализацией в виде классов EuclideanGcdAlgorithm и Bin
 		
 		public interface IBookListStorage
 		{
-		    IEnumerable<Book> LoadBooks();
-		    void SaveBooks(IEnumerable<Book> books);
+		    IEnumerable<Book> Load();
+		    void Save(IEnumerable<Book> books);
 		}
 		
 - В качестве хранилища пока использовать FakeBookListStorage как обертку для списка книг, который хранится в памяти ("in memory dataset"). Данное хранилище пока используется для целей тестирования. В дальнейшем хранилище будет изменяться.
