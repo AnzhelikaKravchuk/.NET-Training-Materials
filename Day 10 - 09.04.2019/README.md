@@ -3,10 +3,14 @@
 
 ## Tasks
 
-- Переобразовать методы расширения класса ArrayExtension в обобщенно-типизированные 
-  > public static T[] Filter(this T[] source, IPredicate<T> predicate){ }
+- Переобразовать методы расширения класса ArrayExtension [Day 7](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%207%20-%2002.04.2019) в обобщенно-типизированные методы
+
+  > public static TSource[] Filter(this TSource[] source, IPredicate<TSource> predicate){ }
+  
   > public static TResult[] Transform(this TSource[] source, ITransformer<TSource,TResult> transformer){ }
-  > public static T[] SortBy(this T[] source, IComparer<T> comparer ){ }
+  
+  > public static TSource[] SortBy(this TSource[] source, IComparer<TSource> comparer ){ }
+  
 - Проверить работу полученных методов, используя в качестве тест-кейсов постановки задач из [Day 7](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%207%20-%2002.04.2019)
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
