@@ -10,3 +10,4 @@
 - [Создание архитектуры программы или как проектировать табуретку](https://habr.com/ru/post/276593/)
 - [Сравнение объектов в C#.NET](https://habr.com/ru/post/137680/)
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
+- [Fabulous adventures in coding. Eric Lippert's blog](https://ericlippert.com/)
