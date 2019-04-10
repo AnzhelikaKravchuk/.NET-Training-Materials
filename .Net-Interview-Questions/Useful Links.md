@@ -11,3 +11,4 @@
 - [Сравнение объектов в C#.NET](https://habr.com/ru/post/137680/)
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
 - [Fabulous adventures in coding. Eric Lippert's blog](https://ericlippert.com/)
+- [Home of the .NET Foundation](https://github.com/dotnet)
