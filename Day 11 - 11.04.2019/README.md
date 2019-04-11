@@ -1,3 +1,8 @@
+## Читать
+
+- C# in Depth. Jon Skeet. Manning Publications Co. 2013. Chapter 3. Parameterized typing with generics.
+- Pro .NET Performance. Sasha Goldshtein, Dima Zurbalev, Ido Flatow. Chapter 5. Collections and Generics
+
 ## Задачи
 
 1. (deadline - 12.04.2019, 24.00) Реализовать метод-генератор последовательности чисел Фибоначчи. Разработать unit-тесты.
