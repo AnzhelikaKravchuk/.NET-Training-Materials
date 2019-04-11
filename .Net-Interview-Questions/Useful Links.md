@@ -12,3 +12,4 @@
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
 - [Fabulous adventures in coding. Eric Lippert's blog](https://ericlippert.com/)
 - [Home of the .NET Foundation](https://github.com/dotnet)
+- [Трюки языка C#](https://habr.com/ru/post/67991/)
