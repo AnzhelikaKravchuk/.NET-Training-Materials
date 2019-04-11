@@ -9,4 +9,7 @@
 - [Топ-25 вопросов для телефонного собеседования](https://tproger.ru/translations/top-25-phone-interview-questions/)
 - [Создание архитектуры программы или как проектировать табуретку](https://habr.com/ru/post/276593/)
 - [Сравнение объектов в C#.NET](https://habr.com/ru/post/137680/)
+- [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
+- [Fabulous adventures in coding. Eric Lippert's blog](https://ericlippert.com/)
+- [Home of the .NET Foundation](https://github.com/dotnet)
 - [Трюки языка C#](https://habr.com/ru/post/67991/)
