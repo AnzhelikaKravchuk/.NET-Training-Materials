@@ -132,10 +132,9 @@
 - Коллекции 
 
 > Collection | Indexed lookup | Keyed lookup | Value lookup | Removal |  Memory |
-
-> SortedList | O(1) |  O(log n) | O(n)   | O(n)*  | O(n)     | Lesser  |
-
-> SortedDictionary | n/a | O(log n) | O(n)   | O(log n) | O(log n) | Greater |  
+>  -|-|-|-|-|-|
+> SortedList | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
+> SortedDictionary | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater |  
 
 
 [Up](#content)
