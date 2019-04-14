@@ -142,7 +142,9 @@
 >  -|-|-|-|-|-|
 > 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
 > BST | Binary search | Sorted | No | Key | Yes | 
+>
 > **Проверить!**
+>
 > ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections.png)
 
 [Up](#content)
