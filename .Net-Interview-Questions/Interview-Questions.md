@@ -131,12 +131,12 @@
 
 - Коллекции - SortedList<TKey,TValue> vs SortedList<T>
 
-> Collection | Indexed lookup | Keyed lookup | Value lookup | Removal |  Memory |
+> Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |
 >  -|-|-|-|-|-|
 > SortedList | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
 > SortedDictionary | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater |  
 >
-> * Вставка O(1) для уже упорядоченных данных.
+> * `*`Вставка O(1) для уже упорядоченных данных.
 >
 > Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
 >  -|-|-|-|-|-|
