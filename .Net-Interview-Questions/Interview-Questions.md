@@ -146,7 +146,6 @@
 >
 > **Проверить!**
 >
-> ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections.png)
 > ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections%201.png)
 > ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections%202.png)
 > http://www.sangadjiprabowo.com/post/2017/02/14/10-c-generic-collection-types-you-should-know
