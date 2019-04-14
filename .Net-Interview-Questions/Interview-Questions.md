@@ -143,6 +143,8 @@
 > 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
 > BST | Binary search | Sorted | No | Key | Yes | 
 
+> ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections.png)
+
 [Up](#content)
 
 ## <a name="3"></a> С\#
