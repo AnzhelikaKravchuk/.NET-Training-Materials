@@ -1,4 +1,4 @@
-# Репозиторий вопросов и ответов для подготовки к собеседованию - здесь только правильные ответы
+# Репозиторий вопросов и ответов для подготовки к собеседованию - здесь только правильные ответы (in progress)
 
 <a name="content"></a>
 
@@ -129,8 +129,9 @@
 > В результате присвоения в переменную значимого типа копируется значение. В результате мы имеем две переменные, которые хранят одинаковое значение. Если изменить значение одной переменной, то в другой переменной значение останется прежним.  
 > В результате присвоения переменной ссылочного типа копируется адрес объекта в куче. В результате мы имеем две переменные ссылочного типа, которые указывают на один объект в куче. При изменении состояния объекта, изменения будут доступны во всех ссылочных переменных, которые указывают на данный объект.
 
-- Коллекции - SortedList<TKey,TValue> vs SortedList<T>
-
+- Коллекции (in progress)
+> - `SortedList<TKey,TValue> vs SortedList<T>`
+>
 > Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory | 
 >  -|-|-|-|-|-|-|
 > SortedList | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
@@ -142,6 +143,12 @@
 >  -|-|-|-|-|-|
 > 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
 > BST | Binary search | Sorted | No | Key | Yes | 
+>
+> **Проверить!**
+>
+> ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections%201.png)
+> ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Collections%202.png)
+> http://www.sangadjiprabowo.com/post/2017/02/14/10-c-generic-collection-types-you-should-know
 
 [Up](#content)
 
