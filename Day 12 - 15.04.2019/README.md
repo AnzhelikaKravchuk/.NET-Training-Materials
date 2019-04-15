@@ -4,9 +4,8 @@
 Chapter 7. Collections
 - C# in Depth. Jon Skeet. Manning Publications Co. 2013. Chapter 6. Implementing iterators the easy way.
 - C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013. Chapter 15. Generic Types and Methods. Chapter 16. Collection Types.
-- CLR via C#. Jeffrey Richter. Microsoft Press. 2010. Chapter 12. Generics.
 - Pro .NET Performance: Optimize Your C# Applications. Sasha Goldshtein. Chapter 5. Collections and Generics
-
+- CLR via C#. Jeffrey Richter. Microsoft Press. 2010. Chapter 12. Generics.
 
 ## Задачи
 
