@@ -27,8 +27,9 @@ Chapter 7. Collections
 > KeyCollection<TKey,TItem>  | | | | | | |
 > ReadOnlyCollection<T>  | | | | | | |
 > ReadOnlyObservableCollection<T>  | | | | | | |
-> 
+>  -|-|-|-|-|-|-|  
 > Dictionary<TKey, TValue> | | | | | | |
+>  -|-|-|-|-|-|-|  
 > SortedList<T> | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
 > SortedDictionary<TKey,TValue> | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater |  
 > * `*`Вставка O(1) для уже упорядоченных данных.
