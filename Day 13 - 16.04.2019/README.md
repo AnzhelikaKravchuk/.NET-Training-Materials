@@ -34,12 +34,22 @@ Chapter 7. Collections
 > `SortedDictionary<TKey,TValue>` | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater |  
 > * `*`Вставка O(1) для уже упорядоченных данных.
 >  
-> Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
->  -|-|-|-|-|-|
-> 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
-> BST | Binary search | Sorted | No | Key | Yes | 
-
-
+> Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
+>  -|-|-|-|-|-|-|
+> `T[]` | | | | | | |
+> `List<T>` | | | | | | |
+> `LinkedList<T>` | | | | | | |
+> `Collection<T>` | | | | | | |
+> `BindingList<T>` | | | | | | |
+> `ObservableCollection<T>`  | | | | | | |
+> `KeyCollection<TKey,TItem>`  | | | | | | |
+> `ReadOnlyCollection<T>`  | | | | | | |
+> `ReadOnlyObservableCollection<T>`  | | | | | | |
+>  | | | | | | |  
+> `Dictionary<TKey, TValue>` | | | | | | |
+>  | | | | | | |   
+> `SortedList<T>` | 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
+> `SortedDictionary<TKey,TValue>` | BST | Binary search | Sorted | No | Key | Yes |
 
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
