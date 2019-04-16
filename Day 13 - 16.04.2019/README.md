@@ -30,8 +30,8 @@ Collection | Indexed lookup| Keyed lookup | Value lookup | Addition |  Removal |
 `ReadOnlyObservableCollection<T>`  | | | | | | |
 **Словари** | | | | | | |  
 `Dictionary<TKey, TValue>` | | | | | | | 
-`SortedList<T>` | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
-`SortedDictionary<TKey,TValue>` | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater | 
+`SortedList<T>` | O(1) |  O(log n) | O(n) | O(n)* | O(n) | | 
+`SortedDictionary<TKey,TValue>` | n/a | O(log n) | O(n) | O(log n) | O(log n) |  | 
 `ReadOnlyDictionary<T>`  | | | | | | |
 **Множества** | | | | | | | 
 `HashSet<T>` | | | | | | | 
