@@ -22,7 +22,7 @@ Chapter 7. Collections
 > List<T> | | | | | | |
 > LinkedList<T> | | | | | | |
 > Collection<T> | | | | | | |
-> BindingList<T>  | | | | | | |
+> BindingList<T> | | | | | | |
 > ObservableCollection<T>  | | | | | | |
 > KeyCollection<TKey,TItem>  | | | | | | |
 > ReadOnlyCollection<T>  | | | | | | |
