@@ -18,6 +18,7 @@ Chapter 7. Collections
 >
 > Collection | Indexed lookup| Keyed lookup | Value lookup | Addition |  Removal |  Memory | 
 >  -|-|-|-|-|-|-|
+> Списки | | | | | | |  
 > `T[]` | | | | | | |
 > `List<T>` | | | | | | |
 > `LinkedList<T>` | | | | | | |
@@ -27,11 +28,19 @@ Chapter 7. Collections
 > `KeyCollection<TKey,TItem>`  | | | | | | |
 > `ReadOnlyCollection<T>`  | | | | | | |
 > `ReadOnlyObservableCollection<T>`  | | | | | | |
->  | | | | | | |  
-> `Dictionary<TKey, TValue>` | | | | | | |
->  | | | | | | |   
+> Словари | | | | | | |  
+> `Dictionary<TKey, TValue>` | | | | | | | 
 > `SortedList<T>` | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
-> `SortedDictionary<TKey,TValue>` | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater |  
+> `SortedDictionary<TKey,TValue>` | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater | 
+> `ReadOnlyDictionary<T>`  | | | | | | |
+>  | | | | | | | 
+> Множества | | | | | | | 
+> `HashSet<T>` | | | | | | | 
+> `SortedSet<T>` | | | | | | | 
+>  | | | | | | | 
+> Очередь, стек | | | | | | | 
+> `Queue<T>` | | | | | | | 
+> `Stack<T>` | | | | | | | 
 > * `*`Вставка O(1) для уже упорядоченных данных.
 >  
 > Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
@@ -46,12 +55,18 @@ Chapter 7. Collections
 > `ReadOnlyCollection<T>`  | | | | | | |
 > `ReadOnlyObservableCollection<T>`  | | | | | | |
 >  | | | | | | |  
-> `Dictionary<TKey, TValue>` | | | | | | |
->  | | | | | | |   
+> `Dictionary<TKey, TValue>` | | | | | | |  
 > `SortedList<T>` | 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
 > `SortedDictionary<TKey,TValue>` | BST | Binary search | Sorted | No | Key | Yes |
-
-
+> `ReadOnlyDictionary<T>`  | | | | | | |
+>  | | | | | | | 
+> Множества | | | | | | | 
+> `HashSet<T>` | | | | | | | 
+> `SortedSet<T>` | | | | | | | 
+>  | | | | | | | 
+> Очередь, стек | | | | | | | 
+> `Queue<T>` | | | | | | | 
+> `Stack<T>` | | | | | | | 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
 ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Q%26A.png)
