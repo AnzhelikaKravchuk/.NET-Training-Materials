@@ -18,9 +18,21 @@ Chapter 7. Collections
 >
 > Collection | Indexed lookup| Keyed lookup | Value lookup | Addition |  Removal |  Memory | 
 >  -|-|-|-|-|-|-|
+> T[] | | | | | | |
+> List<T> | | | | | | |
+> LinkedList<T> | | | | | | |
+> Collection<T> | | | | | | |
+> BindingList<T>  | | | | | | |
+> ObservableCollection<T>  | | | | | | |
+> KeyCollection<TKey,TItem>  | | | | | | |
+> ReadOnlyCollection<T>  | | | | | | |
+> ReadOnlyObservableCollection<T>  | | | | | | |
+> 
+> Dictionary<TKey, TValue> | | | | | | |
 > SortedList<T> | O(1) |  O(log n) | O(n) | O(n)* | O(n) | Lesser| 
 > SortedDictionary<TKey,TValue> | n/a | O(log n) | O(n) | O(log n) | O(log n) | Greater |  
 > * `*`Вставка O(1) для уже упорядоченных данных.
+>  
 > Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
 >  -|-|-|-|-|-|
 > 2 arrays | Binary search | Sorted | Yes | Key, Index | Yes |
