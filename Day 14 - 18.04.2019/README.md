@@ -26,7 +26,7 @@
             
             public static IEnumerable<TSource> SortBy<TSource>(this IEnumerable<TSource>, Comparison<TSource> comparer) { }
   
-- (deadline - 22.04.2019, 24.00) Как альтернативу классу EnumerableExtension создать класс Enumerable, содержащий методы для фильтрации и трансформации, использующие в качестве параметров версии типа делегат [`Func<T>`](https://docs.microsoft.com/en-us/dotnet/api/system.func-2?view=netframework-4.8), перегруженные по параметрам. Изменить метод SortBy, заменив стратегию сравнения двух элементов на стратегию сортировки по ключу (сортировка по возрастанию). Добавить метод SortByDescending, который реализует сортировку по убыванию по ключу.
+- (deadline - 22.04.2019, 24.00) Как альтернативу классу EnumerableExtension создать класс Enumerable, содержащий методы для фильтрации и трансформации, использующие в качестве параметров версии типа делегат [`Func<T>`](https://docs.microsoft.com/en-us/dotnet/api/system.func-2?view=netframework-4.8), перегруженные по параметрам. Изменить метод SortBy, заменив стратегию сравнения двух элементов на стратегию сортировки по ключу (сортировка по возрастанию). Добавить метод SortByDescending, который реализует сортировку по убыванию по ключу. 
       
             public static IEnumerable<TSource> Filter<TSource>(this IEnumerable<TSource> source, Func<TSource> predicate) { }
             
