@@ -38,7 +38,6 @@
   
 - (deadline - 23.04.2019, 24.00) Разработать (использовать код [Day 1 - 19.03.2019](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201%20-%2019.03.2019) и [Day 11 - 11.04.2019](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2011%20-%2011.04.2019)) статичесикй класс-хэлпер для поддержки операций с обобщенными массивами (методы сортировки - быстрая и слиянием, метод бинарного поиска). Предусмотреть возможность настройки логики сравнения, используя подходы, как на основе интерфейсов, так и на основе делегатов ([делегат](https://docs.microsoft.com/en-us/dotnet/api/system.comparison-1?view=netframework-4.8)). Продумать возможный набор удобных для использования перегруженных версий методов. Продемонстрировать работу разработанных методов, используя ращработанные тесты [Day 1 - 19.03.2019](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201%20-%2019.03.2019) и пользовательские типы (класс книга [Day 8 - 04.04.2019](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%208%20-%2004.04.2019)).
 
-
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
 ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Q%26A.png)
