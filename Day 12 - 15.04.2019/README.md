@@ -6,6 +6,8 @@ Chapter 7. Collections
 - C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013. Chapter 15. Generic Types and Methods. Chapter 16. Collection Types.
 - Pro .NET Performance: Optimize Your C# Applications. Sasha Goldshtein. Chapter 5. Collections and Generics
 - CLR via C#. Jeffrey Richter. Microsoft Press. 2010. Chapter 12. Generics.
+- [Правила и рекомендации по переопределению GetHashCode](https://blogs.msdn.microsoft.com/ruericlippert/2011/03/20/943/)
+- [Невероятные приключения в коде. Перевод блога Эрика Липперта](https://blogs.msdn.microsoft.com/ruericlippert/)
 
 ## Задачи
 
