@@ -14,3 +14,6 @@
 - [Home of the .NET Foundation](https://github.com/dotnet)
 - [Трюки языка C#](https://habr.com/ru/post/67991/)
 - [Как работает интернет](https://developer.mozilla.org/ru/docs/Learn/How_the_Internet_works)
+- [https://habr.com/ru/post/188038/](https://habr.com/ru/post/188038/)
+- [Правила и рекомендации по переопределению GetHashCode](https://blogs.msdn.microsoft.com/ruericlippert/2011/03/20/943/)
+- [Невероятные приключения в коде. Перевод блога Эрика Липперта](https://blogs.msdn.microsoft.com/ruericlippert/)
