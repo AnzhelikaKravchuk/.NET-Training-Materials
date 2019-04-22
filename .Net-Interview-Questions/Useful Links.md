@@ -17,3 +17,4 @@
 - [https://habr.com/ru/post/188038/](https://habr.com/ru/post/188038/)
 - [Правила и рекомендации по переопределению GetHashCode](https://blogs.msdn.microsoft.com/ruericlippert/2011/03/20/943/)
 - [Невероятные приключения в коде. Перевод блога Эрика Липперта](https://blogs.msdn.microsoft.com/ruericlippert/)
+- [Сравнение коллекций в .NET](https://jopr.org/blog/detail/sravnenie-kollektsiy-v-net)
