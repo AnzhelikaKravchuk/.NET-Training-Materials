@@ -1,5 +1,6 @@
 ## Читать
 
+- [Delegates. Lambdas and Events](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M9.%20Delegates.%20Lambdas%20and%20Events)
 - Паттерны проетирования на платформе .NET. Сергей Тепляков.Глава 5. Паттерн "Наблюдатель". [можно найти здесь](https://drive.google.com/drive/folders/0B7WmjuqYed3ARTMxLUpWU0tKazQ)
 
 ## Задачи (deadline - 27.04.2019, 24.00)
