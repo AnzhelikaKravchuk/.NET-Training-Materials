@@ -9,6 +9,9 @@
    - *Chapter 9.* Delegates, Lambdas and Events. [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch09.zip)
 - [CLR via C#. Jeffrey Richter. Microsoft Press. 2010](https://www.goodreads.com/book/show/7121415-clr-via-c)
 
+## Delegates vs Interfaces (Workshop) 
+   - https://github.com/AnzhelikaKravchuk/23.04.2019.1
+   - https://github.com/AnzhelikaKravchuk/23.04.2019.2
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
