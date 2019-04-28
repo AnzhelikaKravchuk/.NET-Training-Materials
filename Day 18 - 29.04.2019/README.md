@@ -17,7 +17,7 @@
 
 - Запустить приложение (папка C#, SampleQueries.sln), изучить основные запросы LINQ to Object - **101 LINQ Query Samples** (код находится в классе *LinqSamples*).
  
- ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Screenshot.png)
+ ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/101%20LINQ%20Query%20Samples.png)
  
 - Добавить в приложение класс *CustomSamples* производный от класса *SampleHarness*, класс декорировать атрибутами 
     > [Title("LINQ Query Samples")]   
