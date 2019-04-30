@@ -63,7 +63,7 @@
  - Book record: C# in Depth, 2019, "Manning"
  - Book record: C# in Depth и т.д.
  
-Разработать модульные тесты. (NUnit фреймворк).
+Разработать модульные тесты.
 
 3. **(deadline - 03.04.2019, 24.00)** Не изменяя класс Book, добавить для объектов данного класса дополнительную (любую не существующую у класса изначально) возможность 
 форматирования, не предусмотренную классом. Разработать модульные тесты.
@@ -72,4 +72,3 @@
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Q%26A.png)
-
