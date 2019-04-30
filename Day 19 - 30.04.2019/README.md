@@ -68,5 +68,7 @@
 3. Не изменяя класс Book, добавить для объектов данного класса дополнительную (любую не существующую у класса изначально) возможность 
 форматирования, не предусмотренную классом. Разработать модульные тесты. (NUnit фреймворк).
 
+4. Представить решение задачи [Day 4 - 26.03.2019. Task 3](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%204%20-%2026.03.2019) в виде дополнительной возможности форматного вывода вещественного числа.
+
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Q%26A.png)
