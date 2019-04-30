@@ -11,7 +11,7 @@
    - *Chapter 20.* Language Integrated Query Internals
 - [101 LINQ Samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)
 
-## Постановка задания
+## Задание (deadline  - 05.05.2019)
 
 - Скачать архив *LINQ - Sample Queries.zip* демонстрационного приложения для изучения LINQ.
 
