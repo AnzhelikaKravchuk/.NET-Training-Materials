@@ -20,7 +20,7 @@
    - функцию сравнения содержимого исходного и полученного файлов.
 2. Протестировать работу класса для данного текстового [*SourceText.txt*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/edit/master/Day%2020%20-%2001.05.2019/) в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.
 3. Проанализировать основные возможности потоков (CanRead, CanSeek, CanTimeout, CanWrite).
-3. Для выполнения задания использовать следующий [проект Streams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/edit/master/Day%2020%20-%2001.05.2019/README.md).
+3. Для выполнения задания использовать следующий [проект Streams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019).
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
