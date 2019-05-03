@@ -1,5 +1,3 @@
-## [Test 19.11.2018](https://github.com/AnzhelikaKravchuk/ExtTraining.Autumn.2018.2)
-
 ## Читать
 - [C# 6.0 in a Nutshell. Joseph Albahari, Ben Albahari. O'Reilly Media. 2012.](http://shop.oreilly.com/product/0636920040323.do)
    - *Chapter 10.* LINQ to XML. [Samples](http://www.albahari.com/nutshell/ch10.aspx)
@@ -22,7 +20,7 @@
 - .NET API интерфейсы для работы с  XML – данными.
 - Различные механизмы сериализации
 
-## Задачи (deadline - 27.11.2018, 24.00)
+## Задачи (deadline - 11.05.2019, 24.00)
   В текстовом файле построчно хранится информация об URL-адресах, представленных в виде
   
   ![Scheme](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/Scheme.png)
