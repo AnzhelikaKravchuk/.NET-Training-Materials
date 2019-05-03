@@ -21,9 +21,8 @@
 - Протестировать работу класса для данного текстового [*SourceText.txt*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/edit/master/Day%2020%20-%2001.05.2019/) в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.
 - Проанализировать основные возможности потоков (CanRead, CanSeek, CanTimeout, CanWrite...).
 - Для выполнения задания использовать следующий [проект Streams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019).
-2. Добавить к приложению [Day 8 - 04.04.2019](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%208%20-%2004.04.2019) 
-   - возможность работы с двоичным хранилищем, для работы с которым использовать только классы BinaryReader, BinaryWriter;
-   - возможность логирования исключений, используя для работы NLog, однако учесть, что в дальнейшем фреймворк для логирования может измениться.
+
+2. Реализовать функциональность, обозначенную в методах класса *IOStreamTask* проекта [IOStreams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
