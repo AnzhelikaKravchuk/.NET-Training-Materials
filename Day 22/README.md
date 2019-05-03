@@ -32,6 +32,7 @@
   - https://habrahabr.ru/company/it-grad/blog/341486/      
 
 результирующим является XML-документ вида (можно использовать любую XML технологию без ограничений).
+
 ![XML-результат](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/XML.Task.png)
 
   Для тех URL-адресов, которые не совпадают с данным паттерном, “залогировать” информацию, отметив указанные строки, как необработанные. Для реализации [здесь помощь](https://msdn.microsoft.com/ru-ru/library/system.uri(v=vs.110).aspx).
