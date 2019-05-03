@@ -23,7 +23,7 @@
 - Для выполнения задания использовать следующий [проект Streams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019).
 2. Добавить к приложению [Day 8 - 04.04.2019](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%208%20-%2004.04.2019) 
    - возможность работы с двоичным хранилищем, для работы с которым использовать только классы BinaryReader, BinaryWriter;
-   - возможность логирования исключений, используя для работы NLog, однако учесть, что в дальнейшем фреймворк для логировния может измениться.
+   - возможность логирования исключений, используя для работы NLog, однако учесть, что в дальнейшем фреймворк для логирования может измениться.
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
