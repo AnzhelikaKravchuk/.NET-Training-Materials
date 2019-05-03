@@ -22,7 +22,7 @@
 - Проанализировать основные возможности потоков (CanRead, CanSeek, CanTimeout, CanWrite...).
 - Для выполнения задания использовать следующий [проект Streams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019).
 
-2. Реализовать функциональность, обозначенную в методах класса *IOStreamTask* проекта [IOStreams.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
+2. Реализовать функциональность, обозначенную в методах класса *IOStreamTask* проекта [Streams.2.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2020%20-%2001.05.2019). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
