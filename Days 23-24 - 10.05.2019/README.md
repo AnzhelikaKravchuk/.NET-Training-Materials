@@ -5,12 +5,6 @@
 - [The Art of Unit Testing: with examples in C# Second Edition Edition. Roy Osherove.  Manning Publications Co. 2013.](https://www.manning.com/books/the-art-of-unit-testing-second-edition)
    - *Chapter 3.* [Using stubs to break dependencies](https://livebook.manning.com/#!/book/the-art-of-unit-testing-second-edition/chapter-3/1)
    - *Chapter 4.* [Interaction testing using mock objects](https://livebook.manning.com/#!/book/the-art-of-unit-testing-second-edition/chapter-4/1)
-
-## Материалы (презентация)
-- [Принципы проектирования. Материалы и примеры LINQPad](https://drive.google.com/drive/u/0/folders/1GfV5bnT8vZZZBxaccL4wl-ixXOH9Zc-i)
-- [SOLID](https://drive.google.com/drive/u/0/folders/1Cu4GJDy2AOn0lbKXz2c7DgxOTXzT8NDh)
-- [Project architecture](https://drive.google.com/drive/u/0/folders/1nuD42hcc84zDm2wea43gPjcdDrD3YwM5)
-- [Примеры использования Moq (к статье выше)](https://drive.google.com/drive/u/0/folders/1nuD42hcc84zDm2wea43gPjcdDrD3YwM5)
 - [Проект здесь](https://github.com/EPM-RD-NETLAB/Project-Arch)
 
 ## Задачи
