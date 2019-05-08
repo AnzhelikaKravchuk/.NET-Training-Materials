@@ -20,7 +20,7 @@
 - .NET API интерфейсы для работы с  XML – данными.
 - Механизмы сериализации.
 
-## Задачи (deadline - 11.05.2019, 24.00)
+## Задачи (deadline -)
   В текстовом файле построчно хранится информация об URL-адресах, представленных в виде
   
   ![Scheme](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/Scheme.png)
