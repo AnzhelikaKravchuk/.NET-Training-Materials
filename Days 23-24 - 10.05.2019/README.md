@@ -36,7 +36,7 @@
  
     Работу классов продемонстрировать на примере консольного приложения. 
   
-    Для организации классов и интерфейсов использовать “The Stairway pattern” (“заготовка” в архиве [AccountSystemDemo.7z](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%2024%20-%2011.05.2019), пример [ProjectArchitectureDemo.7z](https://drive.google.com/drive/folders/1cYLB1QRq_Ar0hI6EBL-DWiNRGIKS-iqq)). 
+    Для организации классов и интерфейсов использовать “The Stairway pattern” (“заготовка” в архиве [AccountSystemDemo.7z](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Days%2023-24%20-%2010.05.2019), пример [ProjectArchitectureDemo.7z](https://drive.google.com/drive/folders/1cYLB1QRq_Ar0hI6EBL-DWiNRGIKS-iqq)). 
   
     Для разрешения зависимостей использовать Ninject- фреймворк.
     
