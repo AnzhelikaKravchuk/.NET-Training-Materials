@@ -3,6 +3,7 @@
 - [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
 - [Entity Framework 6 (RU)](https://docs.microsoft.com/ru-ru/ef/ef6/)
 
+# Обязательно к выплнению
 - [Code First для существующей базы данных](https://docs.microsoft.com/ru-ru/ef/ef6/modeling/code-first/workflows/existing-database)
 - [Code First в новой базе данных](https://docs.microsoft.com/ru-ru/ef/ef6/modeling/code-first/workflows/new-database)
 
