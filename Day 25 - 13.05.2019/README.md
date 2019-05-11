@@ -7,8 +7,11 @@
 - [Code First для существующей базы данных](https://docs.microsoft.com/ru-ru/ef/ef6/modeling/code-first/workflows/existing-database)
 - [Code First в новой базе данных](https://docs.microsoft.com/ru-ru/ef/ef6/modeling/code-first/workflows/new-database)
 
-## Задачи (deadline - )
-- Добавить в проект для работы с банковским счетом реализацию DAL, реализуя его как обертку над ORM ADO.NET Entity Framework (подход Database-First). Протестировать работу в консоли. Если возникнет необходимость, выполнить ”сквозные” изменения в solution-e. (BLL,BLL.Interface и т.п.).
+## Задачи 
+
+- (deadline - ) Добавить в проект для работы с банковским счетом реализацию DAL на основе ADO.NET (минимально только для того, чтобы понять концепцию и потренировать ADO.NET). Протестировать работу в консоли. Если возникнет необходимость, выполнить ”сквозные” изменения в solution-e. (BLL,BLL.Interface и т.п.).
+
+- (deadline - ) Добавить в проект для работы с банковским счетом реализацию DAL, реализуя его как обертку над ORM ADO.NET Entity Framework (подход Database-First). Протестировать работу в консоли. Если возникнет необходимость, выполнить ”сквозные” изменения в solution-e. (BLL,BLL.Interface и т.п.).
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
