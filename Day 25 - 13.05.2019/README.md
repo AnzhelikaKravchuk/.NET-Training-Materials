@@ -1,5 +1,5 @@
 ## Читать
-- [Entity Framework Tutorial](http://www.entityframeworktutorial.net/)(**Основной ресурс для изучения ADO Entity Framework**)
+- [Entity Framework Tutorial](http://www.entityframeworktutorial.net/) (**Основной ресурс для изучения ADO Entity Framework**)
 - [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
 - [Entity Framework 6 (RU)](https://docs.microsoft.com/ru-ru/ef/ef6/)
 
