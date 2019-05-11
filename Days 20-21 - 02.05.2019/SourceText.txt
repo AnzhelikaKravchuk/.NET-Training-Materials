@@ -1,0 +1,79 @@
+﻿Using Settings in C#
+
+Visual Studio 2005
+ 
+Matt Stoecker
+Microsoft Corporation
+August 2006
+Applies to:
+Microsoft Visual C# 2005
+Microsoft .NET Framework 2.0
+Summary: Learn how to use the new features in Visual C# 2005 to work with application and user settings. (5 printed pages)
+Contents
+Introduction
+Application and User Settings
+Creating a New Setting at Design Time
+Using Settings at Run Time
+Using Alternate Sets of Settings
+Conclusion
+Introduction
+The .NET Framework 2.0 allows you to create and access values that are persisted between application execution sessions. These values are called settings. Settings can represent user preferences, or valuable information the application needs to use. For example, you might create a series of settings that store user preferences for the color scheme of an application. Or you might store the connection string that specifies a database that your application uses. Settings allow you to both persist information that is critical to the application outside of the code, and to create profiles that store the preferences of individual users.
+While Visual Basic 2005 has provided an easily discoverable mechanism for accessing settings using the My namespace, there is no analogous namespace in Visual C# 2005, and thus settings are somewhat more difficult to access. Nonetheless, C# users can still use settings by accessing the Properties namespace. In the course of this article, you will learn the difference between application and user settings, how to create new settings at design time, how to access settings at run time, and even how to incorporate multiple sets of settings into your application.
+Application and User Settings
+Settings have four properties:
+Name: The Name property of settings is the name that is used to access the value of the setting at run time.
+Type: The Type of the setting is the .NET Framework type that the setting represents. A setting can be of any type. For example, a setting that holds a user preference of color would be a System.Color type.
+Scope: The Scope property represents how a setting can be accessed at run time. There are two possible values for the Scope property: Application and User. These will be discussed more in this section.
+Value: The Value property represents the value returned when the setting is accessed. The value will be of the type represented by the Type property.
+Of these properties, most are fairly self-explanatory. Name, Type, and Value are all concepts that should be familiar to most programmers. The Scope property requires a little more explanation. Settings have two possible scopes: application scope and user scope. Settings with application scope represent settings that are used by the application regardless of user preferences, whereas settings with user scope are generally less important to the actual application and are more likely to be associated with preferences or other non-critical values.
+The crucial distinction between application-scope and user-scope settings is that user-scope settings are read/write at run time, and their values can be changed and saved in code. Application-scope settings are read only at run time. While they can be read, they cannot be written to. Settings with application scope can only be changed at design time, or by altering the settings file manually.
+Creating a New Setting at Design Time
+You can create a new setting at design time by using the Settings designer. The Settings designer is a familiar grid-style interface that allows you to create new settings and specify properties for those settings. You must specify Name, Type, Scope, and Value for each new setting. Once a setting is created, it can be assessed in code using the mechanisms described later in this article.
+To Create a New Setting at Design Time
+In Solution Explorer, expand the Properties node of your project.
+In Solution Explorer, double-click the .settings file in which you want to add a new setting. The default name for this file is Settings.settings.
+In the Settings designer, set the Name, Type, Scope, and Value for your setting. Each row represents a single setting. Figure 1 shows an example of the Settings designer.
+Aa730869.settingscs01(en-US,VS.80).gif
+Figure 1. The Settings designer in Visual Studio 2005
+Changing the Value of an Existing Setting at Design Time
+You can also use the Settings designer to change the value of a pre-existing setting at design time, as described in the following steps:
+To Change the Value of an Existing Setting at Design Time
+In Solution Explorer, expand the Properties node of your project.
+In Solution Explorer, double-click the .settings file in which you want to add a new setting. The default name for this file is Settings.settings.
+In the Settings designer, find the setting you want to change and type the new value in the Value column.
+Changing the Value of a Setting Between Application Sessions
+At times, you might want to change the value of a setting between application sessions after the application has been compiled and deployed. For example, you might want to change a connection string to point to the correct database location. Since design-time tools are not available after the application has been compiled and deployed, you must change the setting value manually in the file.
+To Change the Value of a Setting Between Application Sessions
+Using Microsoft Notepad or some other text or XML editor, open the <AssemblyName>.exe.config file associated with your application.
+Locate the entry for the setting you want to change. It should look similar to the following example:
+<setting name="Setting" serializeAs="String">
+   <value>This is the setting value</value>
+</setting>
+Type a new value for your setting and save the file.
+Using Settings at Run Time
+Settings are available to the application through code at run time. You can access the value of settings with application scope on a read-only basis, and you can read and write the values of user-scope settings. Settings are available in C# through the Properties namespace.
+Reading Settings at Run Time
+You can read both application-scope and user-scope settings at run time with the Properties namespace. The Properties namespace exposes all of the default settings for the project by using the Properties.Settings.Default object. When writing code that uses settings, all settings appear in IntelliSense and are strongly typed. Thus, if you have a setting that is of type System.Drawing.Color, for example, you can use it without having to cast it first, as shown in the following example:
+this.BackColor = Properties.Settings.Default.myColor;
+Saving User Settings at Run Time
+Application-scope settings are read only, and can only be changed at design time or by altering the <AssemblyName>.exe.config file in between application sessions. User-scope settings, however, can be written at run time, just as you would change any property value. The new value persists for the duration of the application session. You can persist changes to user settings between application sessions by calling the Settings.Save method. These settings are saved in the User.config file.
+To Write and Persist User Settings at Run Time
+Access the user setting and assign it a new value, as shown in the following example:
+Properties.Settings.Default.myColor = Color.AliceBlue;
+If you want to persist changes to user settings between application sessions, call the Save method, as shown in the following code:
+Properties.Settings.Default.Save();
+Using Alternate Sets of Settings
+In some cases, you might want to have multiple sets of settings in an application. For example, if you are developing an application in which a particular group of settings is expected to change frequently, it might be wise to separate them all into a single file so that the file can be replaced wholesale, leaving other settings unaffected. Visual Studio 2005 allows you to add multiple sets of settings to your project. Additional sets of settings can be accessed by using the generated settings object in their own node. For example, if you added a set of settings named SpecialSettings to your project, you would access the settings it contains in code through the Properties.SpecialSettings object.
+To Add an Additional Set of Settings
+From the Project menu, choose Add New Item. The Add New Item dialog box opens.
+In the Add New Item dialog box, select Settings File.
+In the Name box, give the settings file a name, such as SpecialSettings.settings, and click Add to add the file to your solution.
+In Solution Explorer, drag the new settings file into the Properties folder. This allows your new settings to be available in code.
+Add and use settings in this file as you would any other settings file. You can access this group of settings through the Properties.SpecialSettings object.
+Conclusion
+In this paper, you have seen how you can use settings in your C# applications to store and manage settings that pertain both to the application and the user. You have learned how to add settings at design time, how to read and write settings at run time, and how to incorporate additional sets of settings into your application. For further information, consult the following resources:
+Windows Forms on Microsoft .NET Framework Developer Center
+WindowsForms.NET
+Windows Forms Documentation Updates Blog
+
+© Microsoft Corporation. All rights reserved.
