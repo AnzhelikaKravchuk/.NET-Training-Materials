@@ -7,6 +7,7 @@
 - [HTTP: протокол, который каждый разработчик должен знать. (часть 2)](https://ruseller.com/lessons.php?rub=28&id=1777)
 - [Принципы работы современных веб-браузеров](https://www.html5rocks.com/ru/tutorials/internals/howbrowserswork/)
 - [Руководство по HTML5 и CSS3](https://metanit.com/web/html5/)
+- [В ЧЕМ РАЗНИЦА МЕЖДУ HTTP/1.1 И HTTP/2?](https://www.8host.com/blog/v-chem-raznica-mezhdu-http1-1-i-http2/)
 
 ## Задачи
 - [Оптимизировать производительность при загрузке страницы](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/critical-rendering-path.md)
