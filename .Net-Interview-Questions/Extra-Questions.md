@@ -1,47 +1,47 @@
-# Skills checklist
+# Interview Questions
 
 ## C\#
 
-### Знаю разницу между Value Туре и Reference Туре
+### Разница между Value Туре и Reference Туре
 
 Фундаментальное отличие между типами значений и ссылочными типами связанно с тем, каким образом они поддерживаются в памяти.
 
 - Содержимое переменной или константы, относящейся к **типу значения**, является просто значение. Присваивание экземпляра типа значения всегда приводит к копированию этого экземпляра.
 - содержимым переменной или константы **ссылочного типа** является ссылка на объект, который содержит значение. Присваивание переменной ссылочного типа вызывает копирование ссылки, но не экземпляра объекта.
 
-### Знаю, что такое boxing/unboxing
+### Что такое boxing/unboxing
 
-### Умею использовать ref и out
+### Как использовать ref, out и in
 
-### Знаю разницу между "++х" и "х++"
+### Отличие "++х" от "х++"
 
-### Знаю разницу межу do...while и while
+### Разница между do...while и while
 
-### Знаю, как работает delegate
+### Как работает delegate
 
-### Умею подписываться на события
+### Как подписываться на события
 
-### Знаю разницу межу interface и abstract class
+### Разница между interface и abstract class
 
-### Знаю разницу межу protected и internal fields
+### Разница между protected и internal fields
 
-### Знаю разницу между switch и case
+### Что такое switch и case
 
-### Умею создавать custom attributes
+### Создание custom attributes
 
-### Умею создавать generic types
+### Создание generic types
 
-### Знаю, что такое generic constraints
+### Что такое generic constraints
 
-### Знаю разницу между extension и generic method
+### Разница между extension и generic method
 
-### Знаю разницу между anonymous delegate и lambda
+### Разница между anonymous delegate и lambda
 
-### Знаю, как работает event
+### Как работает event
 
-### Знаю, для чего нужен GetHashCode
+### Для чего нужен GetHashCode
 
-### Знаю разницу между "==" и ReferenceEquals
+### Разница между "==" и ReferenceEquals
 
 ```C#
 public static bool ReferenceEquals (object objA, object objB);
@@ -70,7 +70,7 @@ public static bool operator == (Foo left, Foo right)
 
 `**` - Если любой из операндов не является числом (`Double.NaN` или `Single.NaN`), результат операции имеет значение false.
 
-### Знаю разницу между Object.Equals(Object, Object) и Object.Equals(Object)
+### Разница между Object.Equals(Object, Object) и Object.Equals(Object)
 
 - Первый является **статическим** методом типа `System.Object`. Позволяет сравнивать объекты, если один или оба операнды равны - `null`. Сначала этот метод проверяет экземпляры на тождество и если объекты не тождественны, то проверяет их на null и делегирует ответственность за компарацию переопределяемому экземплярному методу Equals.
 
@@ -90,11 +90,11 @@ public virtual bool Equals(object obj)
 }
 ```
 
-### Знаю разницу между sealed и static class
+### Разница между sealed и static class
 
-### Умею создавать anonymous delegate
+### Как создавать anonymous delegate
 
-### Знаю разницу между Func Action
+### Разница между Func Action
 
 - Делагат `Func` **возвращает результат действия** и может принимать параметры. Он имеет различные формы:
 
@@ -114,7 +114,7 @@ public delegate void Action<in T>(T obj);
 public delegate void Action<in T1,in T2,in T3,in T4,in T5,in T6,in T7,in T8,in T9,in T10,in T11,in T12,in T13,in T14,in T15,in T16>(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, T16 arg16);
 ```
 
-### Знаю разницу между Func и Predicate
+### Разница между Func и Predicate
 
 Делегат `Predicate` как правило, используется для сравнения, сопоставления некоторого объекта T определенному условию. В качестве выходного результата возвращается значение true, если условие соблюдено, и false, если не соблюдено. Имеет только одну форму.
 
@@ -122,31 +122,31 @@ public delegate void Action<in T1,in T2,in T3,in T4,in T5,in T6,in T7,in T8,in T
 public delegate bool Predicate<in T>(T obj);
 ```
 
-### Знаю, как реализован System.String
+### Как реализован System.String
 
-### Знаю, как использовать try...catch
+### Как использовать try...catch
 
-### Умею создать nullable int
+### Создание nullable int
 
-### Знаю, зачем использовать StringBuilder
+### Зачем использовать StringBuilder
 
-### Умею создавать enum types
+### Создание enum types
 
-### Знаю разницу между const и readonly fields
+### Разница между const и readonly fields
 
-### Знаю разницу между static и const fields
+### Разница между static и const fields
 
-### Умею использовать Tuple
+### Как использовать Tuple
 
-### Знаю, для чего нужен finally
+### Для чего нужен finally
 
-### Знаю, когда использовать IDispose
+### Когда использовать IDispose
 
-### Умею реализовать Dispose Pattern
+### Реализация Dispose Pattern
 
-### Знаю, как работает using совместно с IDispose
+### Как работает using совместно с IDispose
 
-### Знаю разницу между "??", "?:" и "?."
+### Разница между "??", "?:" и "?."
 
 ?? - оператор объединения с NULL (null-coalescing operator). Он возвращает левый операнд, если этот операнд не имеет значение NULL; в противном случае возвращается правый операнд.
 
@@ -166,155 +166,155 @@ int amount = today == Day.Friday || today == Day.Saturday ? 5 : 1;
 var lastOrder = customer?.Orders.?Last();
 ```
 
-### Знаю разницу между this.Method() и base.Method()
+### Разница между this.Method() и base.Method()
 
-### Знаю, что вернет typeof(int)
+### Что вернет typeof(int)
 
 Возвращает объект `System.Type` представляющий тип `int`.
 
-### Знаю, что вернет nameof(obj.Property).GetType()
+### Что вернет nameof(obj.Property).GetType()
 
 1. `nameof(obj.Property)` возвращает строку со значением `"Property"`.
 2. `"Property".GetType()` возвращает объект `System.Type` представляющий тип `string`.
 
-### Знаю разницу между throw new и throw
+### Отличие throw new от throw
 
 ## Collections
 
-### Знаю разницу между O(1), O(log n) и O(n)
+### Разница между O(1), O(log n) и O(n)
 
-### Знаю разницу между Т[] и List\<T>
+### Разница между Т[] и List\<T>
 
-### Знаю разницу между ArrayList и List\<T>
+### Разница между ArrayList и List\<T>
 
-### Знаю разницу между IEnumerable\<T> и IList\<T>
+### Разница между IEnumerable\<T> и IList\<T>
 
-### Знаю разницу между ICollection и IList\<T>
+### Разница между ICollection и IList\<T>
 
-### Знаю разницу между IReadOnlyCollection\<T> и IReadOnlyList\<T>
+### Разница между IReadOnlyCollection\<T> и IReadOnlyList\<T>
 
-### Знаю разницу между List\<T> и Dictionary\<TKey, TValue>
+### Разница между List\<T> и Dictionary\<TKey, TValue>
 
-### Знаю разницу между List\<T> и HashSet\<T>
+### Разница между List\<T> и HashSet\<T>
 
-### Знаю разницу между List\<T> и SortedDictionary\<TKey, TValue>
+### Разница между List\<T> и SortedDictionary\<TKey, TValue>
 
-### Умею использовать yield
+### Как использовать yield
 
-### Знаю разницу между IEnumerable\<T> и IEnumerator
+### Разница между IEnumerable\<T> и IEnumerator
 
-### Знаю, как работает binary tree
+### Как работает binary tree
 
 ## GC
 
-### Знаю, что такое GC и зачем нужны поколения
+### Что такое GC и зачем нужны поколения
 
-### Знаю количество поколений
+### Количество поколений
 
-### Знаю, что делает GC.Collect
+### Что делает GC.Collect
 
-### Знаю, что делает GC.SuppressFinalize
+### Что делает GC.SuppressFinalize
 
-### Знаю разницу между SOH и LOH
+### Разница между SOH и LOH
 
-### Знаю, где размещаются struct и class в памяти
+### Где размещаются struct и class в памяти
 
-### Знаю разницу между f-reachable queue и finalization queue
+### Разница между f-reachable queue и finalization queue
 
 ## OOP
 
-### Знаю, что нужно инкапсулировать
+### Что нужно инкапсулировать
 
-### Умею реализовать полиморфное поведение в C\#
+### Как реализовать полиморфное поведение в C\#
 
-### Умею использовать абстракцию
+### Как использовать абстракцию
 
-### Умею наследовать классы в C\#
+### Как наследовать классы в C\#
 
 ## .NET
 
-### Знаю, что такое Assembly
+### Что такое Assembly
 
-### Знаю, что такое CLR
+### Что такое CLR
 
-### Знаю, что такое AppDomain
+### Что такое AppDomain
 
-### Знаю, что такое GAC
+### Что такое GAC
 
-### Знаю, что такое IL
+### Что такое IL
 
-### Умею работать с AppDomain
+### Как работать с AppDomain
 
-### Умею работать с GAC
+### Как работать с GAC
 
-### Умею работать с XmlSerializer (или JsonSerializer)
+### Как работать с XmlSerializer (или JsonSerializer)
 
 ## LINQ
 
-### Знаю разницу между First, FirstOrDefault, Single и SingleOrDefault
+### Разница между First, FirstOrDefault, Single и SingleOrDefault
 
-### Знаю разницу между All, Any и Contains
+### Разница между All, Any и Contains
 
-### Знаю разницу между Select и Where
+### Разница между Select и Where
 
-### Умею использовать GroupBy и GroupJoin
+### Использование GroupBy и GroupJoin
 
-### Знаю разницу между Distinct и OrderBy
+### Разница между Distinct и OrderBy
 
-### Знаю разницу между Select и SelectMany
+### Разница между Select и SelectMany
 
-### Знаю, что такое deferred execution
+### Deferred execution
 
 ## SQL и RDBMS
 
-### Умею делать простые запросы SELECT, INSERT, UPDATE, DELETE. Знаю, как работает INNER JOIN и CROSS JOIN; знаю как реализовать связь 1-1, 1-n.
+### Как делать простые запросы SELECT, INSERT, UPDATE, DELETE. Как работает INNER JOIN и CROSS JOIN; реализация связей 1-1, 1-n
 
-### Знаю уровни изолированности транзакций, умею создавать триггеры и хранимые процедуры
+### Уровни изолированности транзакций, создание триггеров и хранимых процедур
 
-### Знаю, как работают LEFT/RIGHT/FULL OUTER JOIN; знаю основные агрегатные функции; понимаю, как работают кластерные и некластерные индексы, умею создавать индексы; знаю как реализовать связь n-n
+### Как работают LEFT/RIGHT/FULL OUTER JOIN; основные агрегатные функции; как работают кластерные и некластерные индексы, как создавать индексы; реализация связи n-n
 
 ## ADO.NET
 
-### Умею создавать SqlClient, работать с connection string в App.config; создавать запрос на получение и изменение данных в БД с помощью DbCommand
+### Как создавать SqlClient, работать с connection string в App.config; создавать запрос на получение и изменение данных в БД с помощью DbCommand
 
-### Умею вызыватьхранимые процедуры, получать данные через DataReader
+### Как вызывать хранимые процедуры, получать данные через DataReader
 
 ## Entity Framework
 
-### Знаю, что такое Db/Code/Model First
+### Db/Code/Model First
 
-### Умею делать Code First сущности и устанавливать связь 1-1 и 1-n
+### Как делать Code First сущности и устанавливать связь 1-1 и 1-n
 
-### Умею описывать ключи и связи через атрибуты; знаю что такое DbSet и DbContext
+### Как описывать ключи и связи через атрибуты; что такое DbSet и DbContext
 
-### Умею создавать миграции
+### Создание миграций
 
-### Умею реализовывать отношение n-n;
+### Реализация отношений n-n
 
-### Знаю, что такое lazy, eager и explicit loading и умею это использовать
+### Что такое lazy, eager и explicit loading и умею это использовать
 
-### Умею описывать связи в OnModelCreating
+### Как описывать связи в OnModelCreating
 
 ## Многопоточность
 
-### Умею использовать lock и Monitor
+### Как использовать lock и Monitor
 
-### Умею работать с потоками
+### Работа с потоками
 
-### Знаю и умею использовать примитивы синхронизации ОС (mutex, semaphore, manual/auto reset event)
+### Использовние примитивов синхронизации ОС (mutex, semaphore, manual/auto reset event)
 
-### Знаю, для чего нужен ThreadPool
+### Для чего нужен ThreadPool
 
-### Знаю разницу между Task.WaitAll, Task.WaitAny, Task.WhenAll и Task.WhenAny
+### Разница между Task.WaitAll, Task.WaitAny, Task.WhenAll и Task.WhenAny
 
 ## Асинхронность
 
-### Понимаю, когда нужно использовать async
+### Когда нужно использовать async
 
-### Понимаю, как работает await
+### Как работает await
 
-### Знаю, зачем нужен ConfigureAwait
+### Зачем нужен ConfigureAwait
 
-### Знаю «подводные камни» await
+### «Подводные камни» await
 
-### Знаю и умею АРМ
+### АРМ
