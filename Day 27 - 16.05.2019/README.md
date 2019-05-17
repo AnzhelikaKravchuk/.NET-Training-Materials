@@ -1,28 +1,5 @@
 ## [ASP.NET](https://docs.microsoft.com/en-us/aspnet/index#pivot=aspnet)
 
-
-# Dynamic web server 
-
-![](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/Web%20Application%20with%20HTML%20and%20Steps.png)
-
-#
-
-# IIS and ASP.NET Request Pipeline
-
-[Introduction to IIS Architectures](https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture)
-
-[IIS and ASP.NET Request Pipeline](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/IIS%20and%20ASP.NET%20pipeline.pdf)
-
-[Обработка запросов в ASP.NET](https://sonyks2007.blogspot.com/search?q=%D0%9E%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2+%D0%B2+ASP.NET)
-
-##
-
-# ASP.NET Application Life Cycle Overview for IIS 7.0
-
-[HttpApplication Class](https://docs.microsoft.com/en-us/dotnet/api/system.web.httpapplication?redirectedfrom=MSDN&view=netframework-4.7.2)
-
-##
-
 # ASP.NET MVC Pipeline
 
 [ASP.NET MVC: The Request-Handling Pipeline](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/asp_net_mvc_poster.pdf)
