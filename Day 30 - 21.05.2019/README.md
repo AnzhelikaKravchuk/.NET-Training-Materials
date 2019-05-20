@@ -24,6 +24,7 @@
   - **View Engine**
      - [IView.cs](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/IView.cs)
      - [IViewEngine.cs](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/IViewEngine.cs)
+     - [VirtualPathProviderViewEngine.cs](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/VirtualPathProviderViewEngine.cs)
      - [ViewEngineResult.cs](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/ViewEngineResult.cs)
      - [ViewEngines.cs](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/ViewEngines.cs)
      - [RazorViewEngine](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/RazorViewEngine.cs)
