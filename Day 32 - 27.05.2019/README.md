@@ -18,7 +18,7 @@
   
 ## Task
 
-(deadline - 02.06.2019) Добавить в проект для работы с банковским счетом - [Task 2](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Days%2023-24%20-%2010.05.2019/README.md) - реализацию уровень представления на основе ASP.NET MVC DAL.
+(deadline - 02.06.2019) Добавить в проект для работы с банковским счетом - [Task 2](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Days%2023-24%20-%2010.05.2019/README.md) - уровень представления на основе ASP.NET MVC.
 
 ### [Репозиторий вопросов и ответов](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
 
