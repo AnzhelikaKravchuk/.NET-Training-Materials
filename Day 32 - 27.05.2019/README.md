@@ -10,7 +10,7 @@
 
 ## 
 
-![ASP.NET MVC pipline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/ASP.NET%20MVC%20pipline.png)
+![ASP.NET MVC pipline](https://github.com/AnzhelikaKravchuk/Training-Autumn-2018/blob/master/Pictures/ASP.NET.MVC.5.Pipeline.png)
 
 # ASP.NET MVC (github)
 
