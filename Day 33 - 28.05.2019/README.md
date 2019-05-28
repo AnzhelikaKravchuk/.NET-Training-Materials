@@ -10,6 +10,8 @@
 
 ## 
 
+![ASP.NET MVC pipline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/ASP.NET.MVC.5.Pipeline.png)
+
 # ASP.NET MVC (github)
 
   - [ASP.NET MVC 5.x, Web API 2.x, and Web Pages 3.x (not ASP.NET Core)](https://github.com/aspnet/AspNetWebStack)
