@@ -24,6 +24,7 @@
 - [IAuthorizationFilter](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/IAuthorizationFilter.cs)
 - [IActionFilter](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/IActionFilter.cs)
 - [IResultFilter](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/IResultFilter.cs)
+- [ActionFilterAttribute](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/ActionFilterAttribute.cs)
 - [AuthorizeAttribute](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/AuthorizeAttribute.cs)
 - [HandleErrorAttribute](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/HandleErrorAttribute.cs)
 
