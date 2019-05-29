@@ -8,8 +8,16 @@
 
 [Lifecycle of an ASP.NET.MVC 5 Aapplication](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/lifecycle-of-an-aspnet-mvc-5-application.pdf)
 
+## Authentication & Authorization
+
+- [FormsAuthenticationModule](https://referencesource.microsoft.com/#System.Web/Security/FormsAuthenticationModule.cs,ac471f8ac73cdb2b,references)
+- [FormsAuthentication](https://referencesource.microsoft.com/#System.Web/Security/FormsAuthentication.cs,a820aab5aa1ac27c)
+- [Membership](https://referencesource.microsoft.com/#System.Web/Security/Membership.cs,4ae972ab033a9157)
+
+
 ## AJAX
 
+- [AJAX и COMET](https://learn.javascript.ru/ajax)
 - [AjaxExtensions](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/Ajax/AjaxExtensions.cs)
 - [AjaxOptions](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/Ajax/AjaxOptions.cs)
 - [AjaxHelper](https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Web.Mvc/AjaxHelper.cs)
