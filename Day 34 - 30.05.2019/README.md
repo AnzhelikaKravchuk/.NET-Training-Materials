@@ -13,7 +13,7 @@
 - [FormsAuthenticationModule](https://referencesource.microsoft.com/#System.Web/Security/FormsAuthenticationModule.cs,ac471f8ac73cdb2b,references)
 - [FormsAuthentication](https://referencesource.microsoft.com/#System.Web/Security/FormsAuthentication.cs,a820aab5aa1ac27c)
 - [Membership](https://referencesource.microsoft.com/#System.Web/Security/Membership.cs,4ae972ab033a9157)
-
+- [Авторизация и Аутентификация в ASP.NET MVC 5](https://hixon.ru/veb-mastering/authorization-and-authentication-in-asp-net-mvc-5.html)
 
 ## AJAX
 
