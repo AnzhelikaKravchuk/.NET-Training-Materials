@@ -29,4 +29,4 @@
 	- либо репозиторий один с папками (название папки см. выше для решения) 
 	
 	  - Каждый репозиторий (папка) должен содержать файл readme.md, с формулировкой решаемых задач и (или) линками на иправленные решения.
-	  - Обязательным требованием для любого выполненного задания является его соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201)
+	  - Обязательным требованием для любого выполненного задания является его соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201) (https://blog.submain.com/stylecop-detailed-guide/)
