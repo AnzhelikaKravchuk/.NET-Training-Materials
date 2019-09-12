@@ -7,6 +7,7 @@
 - [Вычисление НОД — ошибка, которой не замечают](https://habr.com/ru/post/205106/)
 - [Под капотом у Stopwatch](https://m.habr.com/ru/post/226279/)
 - [Хитрости с битовыми операциями](https://tproger.ru/articles/awesome-bits/)
+- [Ликбез по типизации в языках программирования](https://habr.com/ru/post/161205/)
 - [Топ-25 вопросов для телефонного собеседования](https://tproger.ru/translations/top-25-phone-interview-questions/)
 - [Создание архитектуры программы или как проектировать табуретку](https://habr.com/ru/post/276593/)
 - [Сравнение объектов в C#.NET](https://habr.com/ru/post/137680/)
@@ -18,3 +19,4 @@
 - [https://habr.com/ru/post/188038/](https://habr.com/ru/post/188038/)
 - [Правила и рекомендации по переопределению GetHashCode](https://blogs.msdn.microsoft.com/ruericlippert/2011/03/20/943/)
 - [Невероятные приключения в коде. Перевод блога Эрика Липперта](https://blogs.msdn.microsoft.com/ruericlippert/)
+- [Всё, точка, приплыли! Учимся работать с числами с плавающей точкой и разрабатываем альтернативу с фиксированной точностью десятичной дроби](https://habr.com/ru/company/xakep/blog/257897/)
