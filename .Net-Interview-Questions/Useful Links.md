@@ -20,3 +20,4 @@
 - [Правила и рекомендации по переопределению GetHashCode](https://blogs.msdn.microsoft.com/ruericlippert/2011/03/20/943/)
 - [Невероятные приключения в коде. Перевод блога Эрика Липперта](https://blogs.msdn.microsoft.com/ruericlippert/)
 - [Всё, точка, приплыли! Учимся работать с числами с плавающей точкой и разрабатываем альтернативу с фиксированной точностью десятичной дроби](https://habr.com/ru/company/xakep/blog/257897/)
+- [Best practices for exceptions](https://docs.microsoft.com/ru-ru/dotnet/standard/exceptions/best-practices-for-exceptions)
