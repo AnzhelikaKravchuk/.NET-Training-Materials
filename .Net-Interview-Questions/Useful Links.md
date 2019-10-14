@@ -24,3 +24,4 @@
 - [InheritDoc. Inherit XML comments in your C# source code](https://www.inheritdoc.io/)
 - [DocFX. A documentation generation tool for API reference and Markdown files!](https://dotnet.github.io/docfx/)
 - [Sandcastle](https://github.com/EWSoftware/SHFB)
+- [Heap vs Stack](https://dev.to/tyrrrz/interview-question-heap-vs-stack-c-5aae)
