@@ -25,3 +25,4 @@
 - [DocFX. A documentation generation tool for API reference and Markdown files!](https://dotnet.github.io/docfx/)
 - [Sandcastle](https://github.com/EWSoftware/SHFB)
 - [Heap vs Stack](https://dev.to/tyrrrz/interview-question-heap-vs-stack-c-5aae)
+- [Шпаргалка по CLI и связанным определениям](https://azvm.github.io/what-the-cli)
